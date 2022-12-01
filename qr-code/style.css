@@ -1,0 +1,56 @@
+.QRimage {
+    height: 200px;
+    border-radius: 5%;
+    margin: 10px 10px 10px 10px;
+    color: hsl(0, 0%, 100%)
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+div {
+display: block;
+background-color: hsl(0, 0%, 100%);
+border-radius: 5%;
+width: 220px;
+height: 350px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+body {
+
+background-color: hsl(212, 45%, 89%);
+
+}
+
+
+.first-paragraph {
+    
+    font-display: center;
+    font-weight: 700;
+    margin: 10 40 10 10;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.second-paragraph {
+    font-family: 'Outfit', sans-serif;
+    display: block;
+    font-display: center;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400;
+
+
+} 
+
+
+
+
