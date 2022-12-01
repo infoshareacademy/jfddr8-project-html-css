@@ -61,3 +61,23 @@ h1,
     font-size: 10px;
     color: hsl(228, 12%, 48%)
 }
+
+.button {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+
+  .icon-card {
+    height: 15px;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
