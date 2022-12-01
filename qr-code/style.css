@@ -1,0 +1,44 @@
+body {
+    font-weight: 700;
+    background-color:  hsl(212, 45%, 89%);
+}
+
+div {
+    display: block;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    width: 250px;
+    height: 450px;
+    margin: 150px auto;
+    padding: 20px;
+}
+
+
+.QRCODE {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    
+
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.first-paragraph {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
+
+.second-paragraph {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+    color: Light gray hsl(212, 45%, 89%);
+}
