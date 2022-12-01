@@ -52,3 +52,6 @@ body {
     color: hsl(228, 12%, 48%);
 
 }
+.price {
+    color: green;
+}
