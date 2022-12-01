@@ -5,29 +5,26 @@
 }
 
 p {
-    font-family: Outfit;
+    font-family: 'Outfit', sans-serif;;
     font-size: 15px;
     
 }
 
 div {
-    display: flexbox;
+    display: block;
     background-color:hsl(0, 0%, 100%);
     border-radius: 5%;
     width: 220px;
     height: 350px;
-    margin-left: 50%;
-    margin-right: auto;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin: 200px auto;
+
     
 
 }
 
 body{
     background-color: hsl(212, 45%, 89%) ;
-    height: 100vh;
-    width: 1440px;
+   
 }
 
 .first-parahraph {
@@ -44,7 +41,7 @@ body{
     font-display: center;
     margin: 10px 15px 10px 15px;
     text-align: center;
-    color: Light gray: hsl(212, 45%, 89%);
+    color: hsl(212, 45%, 89%);
     font-size: 13px;
    
 }
