@@ -2,30 +2,36 @@ body
 {
     background-color: lightblue;
     width:1440px;
+    height: 700px;;
 }
 .qrcode
 {
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width:300px;
-    height: 400px;
-    background-color:#D4D4D4 ;
+    
+    margin-left: 560px;
+    margin-right: 560px;
+    width: 320px;
+    height: 500px;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 
 .paragraph
 {
-    font-weight: 500;
+    font-weight: 700;
     font-size:15px;
     font-family: Outfit;
+    text-align: center;
+    margin-top: 5px;
 }
 .paragraph1
 {
-    font-weight: 700;
+    font-weight: 500;
     font-size:15px;
     font-family:Outfit;
+    text-align: center;
 }
 #image
 {
@@ -33,4 +39,6 @@ body
     margin-bottom:15px;
     margin-left: 10px;
     margin-right: 10px;
+    width: 300px;
+    height: 300px;
 }
