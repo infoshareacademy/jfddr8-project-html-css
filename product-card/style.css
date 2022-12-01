@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(227, 220, 200);
+    
+}
+.photo{
+    width: 200px;
+}
+
+.srodek{
+    background-color:white;
+    }
+
+    .tło{
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+    }
