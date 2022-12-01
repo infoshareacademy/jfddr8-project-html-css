@@ -7,31 +7,35 @@
 body {
 	font-size: 15px;
 	font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
 }
 .box {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: 380px;
+	height: 450px;
 	width: 280px;
-	background-color: pink;
-    border-radius: 15px;
+	background-color: white;
+	border-radius: 15px;
+    
 }
 
 .text {
-margin-top: 75%;
-padding: 10px 10px;
+	margin-top: 10px;
+	padding: 10px 10px;
 
-    text-align: center;
-    
+	text-align: center;
 }
 .text-large {
-    font-size: 20px;
-    font-weight: bold;
-
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .text-small {
-    margin-top: 20px;
+	margin-top: 20px;
+}
+
+img {
+    width: 90%;
 }
