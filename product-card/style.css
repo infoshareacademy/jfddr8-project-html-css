@@ -11,16 +11,14 @@ body {
 .box {
 	margin: 20px;
 	background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-
+	border-radius: 10px;
+	overflow: hidden;
 }
 .image {
 	height: 240px;
 	background-image: url('../product-card/images/image-product-mobile.jpg');
 	background-position: center;
 	background-size: cover;
-	
 }
 
 .text {
@@ -55,35 +53,30 @@ body {
 
 .higher-price {
 	display: inline-block;
-    margin-left: 10px;
-    line-height: ;
-    color: hsl(228, 12%, 48%);
-    font-size: 14px;
-    text-decoration: line-through;
-    vertical-align:super;
+	margin-left: 10px;
+	color: hsl(228, 12%, 48%);
+	font-size: 14px;
+	text-decoration: line-through;
+	vertical-align: super;
 }
 .button {
-    margin: 15px 0px;
-    height: 44px;
-    color: white;
-    background-color: rgb(68, 134, 120);
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 44px;
-    cursor: pointer;
-    transition: background-color .3s;
+	margin: 15px 0px;
+	height: 44px;
+	color: white;
+	background-color: rgb(68, 134, 120);
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 44px;
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 .fa-solid {
-    padding-right: 5px;
-    color: white;
+	padding-right: 5px;
+	color: white;
 }
 
 .button:hover {
-    background-color: rgb(34, 70, 53);
+	background-color: rgb(34, 70, 53);
 }
-
-/* @media (min-width:1200px) {
-
-} */
