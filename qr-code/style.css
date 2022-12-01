@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 15px;
+	font-family: 'Outfit', sans-serif;
+}
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 380px;
+	width: 280px;
+	background-color: pink;
+    border-radius: 15px;
+}
+
+.text {
+margin-top: 75%;
+padding: 10px 10px;
+
+    text-align: center;
+    
+}
+.text-large {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.text-small {
+    margin-top: 20px;
+}
