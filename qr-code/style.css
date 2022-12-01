@@ -1,1 +1,44 @@
+body {
+    background-color: hsl(212, 45%, 89%);  
+}
 
+div {
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    width: 200px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.first {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.second {
+    text-align: center;
+    margin: 10px;
+    color: hsl(212, 45%, 89%);
+}
+
+.QR {
+    background-color: hsl(218, 44%, 22%);
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-size: 15px;
+    font-family: Outfit;  
+}
+
+.image {
+    height: auto;
+    width: 100%;
+}
