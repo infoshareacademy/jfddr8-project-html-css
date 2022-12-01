@@ -1,4 +1,16 @@
 body{
-    background-color: White: hsl(0, 0%, 100%)
+    background-color: hsl(0, 0%, 100%)
+}
+.tło {
+    background-color:  hsl(220, 15%, 55%);    
+    padding: 100px;
+}
+.card {
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
 
+}
+.foto{
+    width: 200px;
 }
