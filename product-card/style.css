@@ -72,11 +72,24 @@ span {
 
 .button {
   background-color: hsl(158, 36%, 37%);
-  margin-left: 35px;
-  width: 190px;
+  margin-left: 20px;
+  width: 215px;
   margin-right: 0px;
   height: 40px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
-.cart {height: 16px; width: 16px;}
+.cart {
+  height: 14px;
+  width: 14px;
+}
+
+.atc {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  font-size: 10px;
+}
