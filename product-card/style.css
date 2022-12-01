@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.First {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.Second {
+    background-color: white;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 5%;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.Perfume {
+color: hsl(228, 12%, 48%);
+font-family: "Montserrat";
+font-weight: 500;
+}
+
+.Gabrielle {
+color: hsl(212, 21%, 14%);
+font-family: "Fraunces";
+font-weight: 700;
+
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+
+}
+
+.oldPrice {
+    text-decoration: line-through;
+
+}
