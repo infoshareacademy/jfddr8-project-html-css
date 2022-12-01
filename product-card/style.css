@@ -1,0 +1,79 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 450px;
+    margin: 100px auto 0px auto;
+    display:flex;
+}
+img { 
+    width:300px;
+    height: auto;
+}
+.content{
+    margin: 25px 37px;
+}
+.logo {
+    letter-spacing: .3em;
+    margin-top:10px;
+}
+.name {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.description {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.price {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+.newPrice {
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    padding-right: 40px;
+    
+}
+.outdatedPrice{
+    text-decoration: line-through;
+    
+}
+button {
+    display: flex;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    width: 220px;
+    height: 50px;
+    border-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon {
+    width: 15px;
+}
+.buttonText {
+    color: hsl(0, 0%, 100%);
+    padding-left: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(159, 42%, 12%)
+}
