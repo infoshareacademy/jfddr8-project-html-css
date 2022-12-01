@@ -1,0 +1,36 @@
+body
+{
+    background-color: Cream;
+    width:1440px;
+}
+.qrcode
+{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:1440px;
+    height: 400px;
+    background-color:#D4D4D4 ;
+}
+
+
+.paragraph
+{
+    font-weight: 500;
+    font-size:15px;
+    font-family: Outfit;
+}
+.paragraph1
+{
+    font-weight: 700;
+    font-size:15px;
+    font-family:Outfit;
+}
+#image
+{
+    margin-top:10px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
