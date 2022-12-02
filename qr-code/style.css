@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     border-radius: 5%;
+    
 }
 
 .image-container {
@@ -22,6 +23,7 @@ p {
     height: 350px;
     padding: 10px;
     margin: auto;
+    
 }
 
 body {
@@ -30,7 +32,6 @@ body {
 
 .first-paragraph {
     display: block;
-    font-display: center;
     font-weight: 700;
     text-align: center;
     font-size: 15px;
