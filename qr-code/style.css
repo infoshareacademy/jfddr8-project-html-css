@@ -1,21 +1,28 @@
 body
 {
     background-color: lightblue;
-    width:1440px;
-    height: 700px;;
+    width: 375px;
+    height: 736px;
+    margin: 0 auto;
+    position: relative;
 }
 .qrcode
 {
     
-    margin-left: 560px;
-    margin-right: 560px;
-    width: 320px;
+    margin:auto;
+    top:0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    width: 375px;
     height: 500px;
     background-color:white;
     border-radius: 10px;
-    margin-top: 121px;
-    margin-bottom: 121px;
+    position: absolute;
+    
+    
 }
+*{box-sizing: border-box;}
 
 
 .paragraph
@@ -29,7 +36,7 @@ body
 .paragraph1
 {
     font-weight: 500;
-    font-size:16px;
+    font-size:15px;
     font-family:Outfit;
     text-align: center;
 }
@@ -39,6 +46,6 @@ body
     margin-bottom:15px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 300px;
+    width: 355px;
     height: 300px;
 }
