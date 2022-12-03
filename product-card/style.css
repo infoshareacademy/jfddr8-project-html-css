@@ -16,7 +16,7 @@ body {
 }
 .image {
 	height: 240px;
-	background-image: url('../product-card/images/image-product-mobile.jpg');
+	background-image: url("./images/image-product-desktop.jpg");
 	background-position: center;
 	background-size: cover;
 }
