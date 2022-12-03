@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap');
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark-grayish-blue);
+
+  background-color: var(--cream);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+.section-row {
+  background-color: var(--white);
+
+  display: flex;
+
+  border-radius: 15px;
+}
+.image {
+  flex: 1 1 50%;
+}
+.content {
+  flex: 1 1 50%;
+
+  padding: 3.5rem;
+}
+.content .sub-title {
+  font-size: 1.1rem;
+  letter-spacing: 0.5rem;
+
+  margin-bottom: 2.5rem;
+}
+.content .title {
+  color: var(--very-dark-blue);
+
+  font-size: 3rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+
+  padding-right: calc(8rem - 3.5rem);
+  margin-bottom: 3rem;
+}
+.content .description {
+  font-size: 1.35rem;
+  line-height: 1.35em;
+
+  margin-bottom: 3.5rem;
+}
+.content .content__price {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Fraunces', serif;
+
+  margin-bottom: 3rem;
+}
+.content__price .content__price--discount-price {
+  color: var(--dark-cyan);
+
+  font-size: 3rem;
+  font-weight: 700;
+
+  margin-right: 2rem;
+}
+.content__price .content__price--primary-price {
+  font-size: 1.3rem;
+
+  text-decoration: line-through;
+}
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.button > a {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+
+  width: 100%;
+  padding: 1.5rem 6rem;
+  text-align: center;
+
+  border-radius: 15px;
+
+  font-size: 1.3rem;
+}
+.button > a:hover {
+  background-color: hsl(158, 37%, 24%);
+}
+
+@media (max-width: 376px) {
+  .container {
+    width: 345px;
+  }
+
+  .section-row {
+    flex-direction: column;
+  }
+
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+  }
+
+  .content {
+    padding: 3rem;
+  }
+  .content .sub-title {
+    margin-bottom: 2rem;
+  }
+  .content .title {
+    padding-right: 0;
+    margin-bottom: 2.5rem;
+  }
+  .content .description {
+    margin-bottom: 3rem;
+  }
+}
