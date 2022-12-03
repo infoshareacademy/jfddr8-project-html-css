@@ -25,5 +25,10 @@ body{
         background-color: hsl(158, 36%, 37%);
         border-radius: 5px;
         padding: 10px 50px;
+        border: none;
+        color: white;
+        
     
     }
+
+    
