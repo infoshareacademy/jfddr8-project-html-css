@@ -1,7 +1,7 @@
 .QRimage {
     height: 200px;
     border-radius: 5%;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     color: hsl(0, 0%, 100%)
 }
 
@@ -33,19 +33,21 @@ background-color: hsl(212, 45%, 89%);
     
     font-display: center;
     font-weight: 700;
-    margin: 10 40 10 10;
+    margin: 10px;
     text-align: center;
-    color: hsl(0, 0%, 100%);
+    color: black;
+    display: block; 
+    font-size: 17px;
 }
 
 .second-paragraph {
     font-family: 'Outfit', sans-serif;
     display: block;
     font-display: center;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     text-align: center;
     color: hsl(220, 15%, 55%);
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 400;
 
     
