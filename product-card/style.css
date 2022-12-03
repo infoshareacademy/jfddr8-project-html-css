@@ -1,0 +1,130 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 335px;
+    height: 610px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px; 
+}
+.picture { 
+    width:335px;
+    height: 234px;
+    background-image: url("images/image-product-mobile.jpg");
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.content{
+    margin: 0px auto 0px auto;
+    width: 295px;
+}
+.logo {
+    letter-spacing: .3em;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    margin-top: 20px;
+    
+        }
+.name {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 1;
+
+}
+.description {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.price {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+.newPrice {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    padding-right: 40px;
+}
+.outdatedPrice{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+button {
+    display: flex;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    width: 295px;
+    height: 50px;
+    border-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.icon {
+    width: 15px;
+}
+.buttonText {
+    color: hsl(0, 0%, 100%);
+    padding-left: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(159, 42%, 12%)
+}
+
+
+@media (min-width:1440px) {
+    .card {
+        width: 600px;
+        height: 450px;
+        margin: 100px auto 0px auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .picture { 
+        width: 300px;
+        height: 450px;
+        background-image: url("images/image-product-desktop.jpg");
+        background-size: cover;
+        border-radius: 15px 0 0 15px ;
+    }
+    .content{
+        padding: 25px 37px;
+        width: 300px;
+    }
+    .logo {
+        margin-top:10px;
+    }
+    .name {
+        margin-top: 15px;
+    }
+    .description {
+        margin-bottom: 30px;
+    
+    }    
+    .newPrice {
+        font-size: 25px;
+    }
+    button {
+        width: 230px;
+        height: 45px;
+        margin-top: 35px;
+    }
+}
