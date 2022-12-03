@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600&display=swap');
-body{
-    background-color:white;
-    
-}
+
 .tło {
-    background-color: hsl(212, 45%, 89%);
-    padding: 90px;
-    box-shadow: 0px 5px 16px hsl(212deg 16% 77%)
+    background-color: hsl(206, 53%, 91%);
+    padding: 140px;
+    
 }
 .card {
     background-color: white;
@@ -15,20 +12,20 @@ body{
     padding: 10px;
     border-radius: 10px;
     font-family: 'Outfit', sans-serif;
-    box-shadow: 0px 5px 16px hsl(212deg 16% 77%)
-
+    box-shadow: 0px 5px 16px hsl(213, 26%, 79%)
 }
 .photo{
     width: 200px;
     border-radius: 10px;
 }
-.body{
-     padding: 80px 30px 80px 30px;
+body{
+    margin: -8px;
 }
 
 .title{
     font-weight: bold;
     text-align: center;
+    font-size: 15px;
 }
 
 .content{
