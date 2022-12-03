@@ -1,0 +1,112 @@
+* {
+  font-size: 28px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1500px;
+}
+
+.Container-0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 300px auto;
+}
+
+.Container-1 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 600px;
+  height: 900px;
+}
+
+.Container-2 {
+  width: 600px;
+  height: 900px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Item {
+  width: 600px;
+  padding-left: 100px;
+  text-align: left;
+  font-family: "Montserrat";
+  margin: 0px 100px 0 0;
+}
+
+.Item-1 {
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 8px;
+  margin-top: 10;
+  font-family: "Montserrat";
+  /* font-family: "Fraunces"; */
+  color: hsl(228, 12%, 48%);
+}
+.Item-2 {
+  font-family: "Fraunces";
+  font-size: 2.5rem;
+}
+.Item-3 {
+  color: hsl(228, 12%, 48%);
+  padding-right: 40px;
+  line-height: 1.5rem;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    align-items: center;
+}
+.Item-4{
+    color:hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-size: 2rem;
+    margin-right: 20px;
+    padding-left: 0;
+   
+}
+.Item-5 {
+    padding: 0;
+    text-decoration: line-through;
+    margin-right: 160px;
+    color:hsl(158, 36%, 37%);
+
+}
+.shopping-card{
+    top: 30px;
+    left: 100px;
+    position: absolute;
+    height: 40px;
+}
+
+.button{
+    position: relative;
+}
+
+.Item-6 {
+   
+    display: inline-block;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    padding: 27px 0 0 0;
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+    margin-bottom: 25px;
+    
+}

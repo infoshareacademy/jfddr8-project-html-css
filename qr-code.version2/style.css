@@ -1,0 +1,47 @@
+*{
+    font-size: 15px;
+    font-family: "Outfit";
+}
+
+body{
+    background-color:hsl(212, 45%, 89%) ;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1500px;
+}
+
+.border{
+    height: 350px;
+    width: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  
+}
+
+.QRimage{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.first-parahraph{
+    font-weight: 700;
+    width: 170px;
+    text-align: center;
+}
+
+.second-parahraph{
+    width: 200px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    margin-top: 0;
+    font-size: 0.8rem;
+}
