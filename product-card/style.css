@@ -1,16 +1,16 @@
-body{
-    background-color:rgb(227, 220, 200);
-    
-}
-.photo{
-    width: 200px;
-}
-
-.srodek{
-    background-color:white;
-    width: 230px;
-    height: 300px;
+    body{
+        background-color:rgb(227, 220, 200);
+        
     }
+    .photo{
+        width: 200px;
+    }
+
+    .srodek{
+        background-color:white;
+        width: 230px;
+        height: 300px;
+        }
 
     .produkt{
         width: 700px;
@@ -20,6 +20,10 @@ body{
         justify-content:center;
     }
 
+    .ikonka{
+        align-items: center;
+        
+    }
     .button{
        
         background-color: hsl(158, 36%, 37%);
@@ -27,8 +31,4 @@ body{
         padding: 10px 50px;
         border: none;
         color: white;
-        
-    
-    }
 
-    
