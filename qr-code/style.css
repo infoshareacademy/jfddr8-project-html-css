@@ -1,0 +1,47 @@
+.QRimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    
+}
+
+.image-container {
+    height: 220px;
+    width: 220px;
+}
+
+p {
+    font-family: Outfit;
+    font-size: 15px;
+}
+
+.container {
+    display: block;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    width: 240px;
+    height: 350px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.first-paragraph {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+}
+
+.second-paragraph {
+    display: block;
+    font-display: center;
+    margin-bottom: ;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(212, 45%, 89%)
+}
