@@ -48,13 +48,14 @@ body {
 .gabrielle {
 	margin-top: 15px;
 	margin-left: 20px;
-	font-size: 26px;
-	font-weight: bold;
-	font-family: 'Merriweather', serif;
+	margin-right: 20px;
+	font-size: 30px;
+	font-family: 'Fraunces', serif;
+	line-height: 30px;
 }
 
 .floral {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 20px;
 	padding-right: 30px;
 	font-size: 14px;
@@ -64,11 +65,10 @@ body {
 
 .price {
 	display: inline-block;
-	margin: 20px;
+	margin: 15px 20px;
 	color: rgb(61 129 104);
-	font-family: 'Merriweather', serif;
-	font-size: 36px;
-	font-weight: bold;
+	font-family: 'Fraunces', serif;
+	font-size: 30px;
 }
 
 .higher-price {
