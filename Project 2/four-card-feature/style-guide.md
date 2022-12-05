@@ -18,15 +18,18 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%)
+- Very Dark Blue: hsl(234, 12%, 34%) h
+- Grayish Blue: hsl(229, 6%, 66%) p
+- Very Light Gray: hsl(0, 0%, 98%) tło
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 15px
+- title: 28px;
+- subheader: 18px;
+- item title: 20px;
+- content: 15px;
 
 ### Fonts
 
