@@ -1,0 +1,123 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 10px auto;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.SectionA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SectionB {
+  display: flex;
+  justify-content: space-around;
+  height: 550px;
+  width: 1200px;
+}
+
+.secB {
+  display: flex;
+  justify-content: center;
+}
+
+.Reliable {
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.Powered {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.our {
+  color: hsl(229, 6%, 66%);
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 20px;
+  color: hsl(234, 12%, 34%);
+}
+
+.supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 3%;
+  background-color: white;
+  -webkit-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  -moz-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  width: 300px;
+  height: 35%;
+  padding: 25px;
+}
+.supB {
+  display: flex;
+  align-items: center;
+}
+
+.team {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  border-radius: 3%;
+  background-color: white;
+  -webkit-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  -moz-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  width: 300px;
+  padding: 25px;
+}
+.karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 3%;
+  background-color: white;
+  -webkit-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  -moz-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  width: 300px;
+  padding: 25px;
+}
+.calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  border-radius: 3%;
+  background-color: white;
+  -webkit-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  -moz-box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  box-shadow: 4px 16px 34px -16px rgba(181, 181, 191, 1);
+  width: 300px;
+  height: 35%;
+  padding: 25px;
+}
+
+.cal1 {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 375px){
+};
