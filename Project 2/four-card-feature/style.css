@@ -22,10 +22,14 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    margin-top: 50px;
 }
 
 p {
-    color: hsl(229, 6%, 66%); 
+    color: hsl(229, 6%, 66%);
+    max-width: 500px;
+    margin: auto;
+    padding-top: 10px;
 }
 
 h1 {
@@ -44,5 +48,28 @@ h3{
     font-size: 20px;
     color: hsl(234, 12%, 34%);
 }
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.box-left {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.box-center-top {
+    border-top: 5px solid hsl(0, 78%, 62%) ;
+}
+
+.box-center-bottom {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box-right {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
 
 
