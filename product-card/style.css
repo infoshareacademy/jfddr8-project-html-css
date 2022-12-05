@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    height: 400px;
+    border-radius: 5%;
+    margin: 10px;
+    color: hsl(0, 0%, 100%);
+
+}
+body {
+background-color: hsl(30, 38%, 92%);
+
+}
+
+div {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    width: 220px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    }
+
+
+
+p {
+font-weight: 400;
+color: hsl(228, 12%, 48%);
+font-size: 14px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+#text {
+    width: 260px;
+    background-color: white;
+    font-family: 'Fraunces', serif;
+}
+
+#Perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
+
+
+
