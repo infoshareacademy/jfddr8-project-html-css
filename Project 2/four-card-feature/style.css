@@ -10,8 +10,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    padding: 70px;
+    max-width: 1440px;
+    padding: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 header {
@@ -22,7 +24,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 p {
