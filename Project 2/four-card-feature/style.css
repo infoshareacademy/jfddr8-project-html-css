@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.tabs > div {
+  background-color: white;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  box-shadow: 0px 10px 10px 5px hsl(225, 20%, 92%);
+  position: relative;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.description {
+  width: 505px;
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+  margin-top: 10px;
+}
+
+h3 {
+  color: hsl(234, 12%, 34%);
+  font-size: 20px;
+}
+
+.tabs {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 350px 30px 350px 30px 350px;
+  grid-template-rows: 140px 110px 30px 110px 140px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  display: grid;
+}
+
+.cyan {
+  border-top: 3px solid hsl(180, 62%, 55%);
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+}
+
+.red {
+  border-top: 3px solid hsl(0, 78%, 62%);
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
+
+.yellow {
+  border-top: 3px solid hsl(34, 97%, 64%);
+  grid-column: 3 / 4;
+  grid-row: 4 / 6;
+}
+
+.blue {
+  border-top: 3px solid hsl(212, 86%, 64%);
+  grid-column: 5 / 6;
+  grid-row: 2 / 5;
+}
+
+.content {
+  margin: 25px;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+  margin-top: 10px;
+}
+
+img {
+  position: absolute;
+  left: 250px;
+  top: 150px;
+}
+
+@media (max-width: 550px) {
+  .tabs {
+    display: block;
+  }
+  .description {
+    width: 400px;
+  }
+
+}
