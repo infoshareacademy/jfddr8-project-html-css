@@ -29,30 +29,31 @@ section {
 
 p {
     color: hsl(229, 6%, 66%);
-    max-width: 500px;
+    max-width: 530px;
     margin: auto;
     padding-top: 10px;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 34px;
     color: hsl(229, 6%, 66%);
     font-weight: 400;
 }
 
 h2{
-    font-size: 28px;
+    font-size: 34px;
     color: hsl(234, 12%, 34%);
     font-weight: 600;
 }
 
 h3{
-    font-size: 20px;
+    font-size: 22px;
     color: hsl(234, 12%, 34%);
+    font-weight: 600;
 }
 
 .box {
-    height: 230px;
+    height: 200px;
     background-color: white;
     border-radius: 10px;
     padding: 25px;
@@ -60,18 +61,24 @@ h3{
 }
 
 .box-left {
+    align-self: center;
+    position: relative;
     border-top: 5px solid hsl(180, 62%, 55%);
 }
 
 .box-center-top {
+    position: relative;
     border-top: 5px solid hsl(0, 78%, 62%) ;
 }
 
 .box-center-bottom {
+    position: relative;
     border-top: 5px solid hsl(34, 97%, 64%);
 }
 
 .box-right {
+    align-self: center;
+    position: relative;
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
@@ -81,17 +88,11 @@ h3{
     gap: 25px;
 }
 
-.box-left {
-    align-self: center;
-}
-
-.box-right {
-    align-self: center;
-}
-
 .img {
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
 }
+
 
 
