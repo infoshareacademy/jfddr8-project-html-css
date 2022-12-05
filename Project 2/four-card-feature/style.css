@@ -1,9 +1,11 @@
-.body {
+
+
+body {
     width: 1440px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     color: hsl(234, 12%, 34%);
-    background: hsl(229, 6%, 66%);
+    background: hsl(0, 0%, 98%);
 }
 .BIGcontainer {
 
@@ -18,27 +20,75 @@
     display: flex;
     justify-content: center;
 }
+
+.Boxcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+
+}
+
 h1 {
     font-weight: normal;
     
 }
 h1 b {
+    font-weight: 600;
     
 }
-h3 {
+h3 { 
+    font-weight: 400;
 
 }
 
-.box{
+p {
+    font-weight: 200;
+}
+
+.box {
     height: 250px;
-    width: 380px;
+    width: 100% ;
     background-color: hsl(0, 0%, 98%);
-    border: 1px solid black
-    border-radius: 10%;
+    border: 1px solid black;
+    border-radius: 3%;
+    box-shadow: 0 0 10px hsl(234, 12%, 34%);
+    padding: 10px;
+    position: relative;
+    margin: 30px;
+}  
+.picture {
+position: absolute;
+bottom: 20px;
+right: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+.column {
+    display: flex;
+    justify-content: center;
 
 }
 
-.Boxcontainer{
-    display: flex;
+.borderGreen {
+    border-top: 5px solid green;
+    flex-direction: column;
+}
 
+.borderRed {
+    border-top: 5px solid red;
+    flex-direction: column;
+}
+
+.borderOrange {
+    border-top: 5px solid orange;
+    flex-direction: column;
+}
+
+.borderBlue {
+    border-top: 5px solid blue;
+    flex-direction: column;
 }
