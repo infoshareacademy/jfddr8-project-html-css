@@ -1,0 +1,44 @@
+.body {
+    width: 1440px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    background: hsl(229, 6%, 66%);
+}
+.BIGcontainer {
+
+}
+
+.smaller-text {
+    display: flex;
+    justify-content: center;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-weight: normal;
+    
+}
+h1 b {
+    
+}
+h3 {
+
+}
+
+.box{
+    height: 250px;
+    width: 380px;
+    background-color: hsl(0, 0%, 98%);
+    border: 1px solid black
+    border-radius: 10%;
+
+}
+
+.Boxcontainer{
+    display: flex;
+
+}
