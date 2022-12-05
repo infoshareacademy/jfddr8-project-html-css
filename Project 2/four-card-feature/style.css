@@ -11,6 +11,7 @@ body {
 
 .container {
     max-width: 1200px;
+    padding: 70px;
 }
 
 header {
@@ -19,8 +20,29 @@ header {
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
+p {
+    color: hsl(229, 6%, 66%); 
+}
+
+h1 {
+    font-size: 28px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+h2{
+    font-size: 28px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+}
 
 
