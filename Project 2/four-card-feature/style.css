@@ -35,7 +35,7 @@ p {
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 32px;
     color: hsl(229, 6%, 66%);
     font-weight: 400;
 }
@@ -55,7 +55,7 @@ h3{
 .box {
     height: 200px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 25px;
     box-shadow: 0px 0px 10px hsl(229, 6%, 66%);
 }
@@ -93,6 +93,36 @@ h3{
     bottom: 20px;
     right: 30px;
 }
+
+@media screen and (max-width: 375px) {
+    .container {
+        padding: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+    
+    h2{
+        font-size: 26px;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        margin-top: 60px;
+    }
+
+    p {
+        padding-top: 20px;
+    }
+}
+    
+
 
 
 
