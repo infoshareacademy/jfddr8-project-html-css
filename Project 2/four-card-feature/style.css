@@ -7,6 +7,7 @@
 
 
 body {
+    max-width: 1440px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     color: hsl(234, 12%, 34%);
@@ -24,32 +25,33 @@ body {
 .header{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .Boxcontainer{
-    max-width: 1440px;
+    display: flex;
     align-items: center;
     padding: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    
 
 }
 .row {
     display: flex;
     flex-direction: row;
 }
-h1 {
-    font-weight: normal;
-    
-}
+
 h1 b {
+    justify-content: center;
     font-weight: 600;
     
 }
 h3 { 
     font-weight: 400;
-
 }
 
 p {
@@ -57,7 +59,8 @@ p {
 }
 
 .box {
-    height: 250px;
+    width: 400px;
+    height: 230px;
     background-color: hsl(0, 0%, 98%);
     border-radius: 2%;
     padding: 25px;
@@ -65,6 +68,7 @@ p {
     box-shadow: 0px 0px 10px hsl(212, 86%, 64%);
     overflow-wrap: break-word;
     align-self: center;
+    flex-direction: column;    
   
 }  
 .picture {
@@ -73,34 +77,63 @@ p {
     right: 20px;
 }
 
-
-
-
 .borderGreen {
     border-top: 5px solid green;
-    flex-direction: column;
     margin: 20px;
 }
 
 .borderRed {
     border-top: 5px solid red;
-    flex-direction: column;
     margin: 20px 20px 40px 20px;
 }
 
 .borderOrange {
     border-top: 5px solid orange;
-    flex-direction: column;
     margin: 20px 20px 40px 20px;
 }
 
 .borderBlue {
     border-top: 5px solid blue;
-    flex-direction: column;
     margin: 20px;
     
 
 }
 .BigColumn {
     flex-direction: column;
+}
+
+@media screen and (max-width: 375px) {
+    .box {
+        width: 100%;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .Boxcontainer{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .borderGreen {
+        border-top: 5px solid green;
+        margin: 5px;
+    }
+    
+    .borderRed {
+        border-top: 5px solid red;
+        margin: 10px 10px 20px 10px;
+    }
+    
+    .borderOrange {
+        border-top: 5px solid orange;
+        margin: 10px 10px 20px 10px;
+    }
+    
+    .borderBlue {
+        border-top: 5px solid blue;
+        margin: 5px;
+}
 }
