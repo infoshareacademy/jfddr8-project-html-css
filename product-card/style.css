@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
-    
     body{
         background-color:rgb(227, 220, 200);
         display: flex;
@@ -9,14 +8,14 @@
         
     }
     .photo{
-        width: 200px;
+        width: 260px;
        height: 100%;
        border-radius: 10px 0px 0px 10px;
     }
 
     .srodek{
         background-color:white;
-        width: 230px;
+        width: 260px;
         height: 100%;
         box-sizing: border-box;
         padding: 20px;
@@ -29,21 +28,113 @@
         display: flex;
         align-items: center;
         justify-content:center;
-        height: 400px
+        height: 440px
     }
 
     .ikonka{
         align-items: center;
+        margin-right: 5px;
         
     }
     .button{
-       
-        background-color: hsl(158, 36%, 37%);
-        border-radius: 5px;
-        padding: 10px 50px;
-        border: none;
-        color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+    padding: 13px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+        
     }
     .zdjecie {
         height: 100%;
     }
+
+    #newprice {
+        color:hsl(158, 36%, 37%);
+        font-size: 30px;
+        font-family: 'Fraunces', serif;
+    }
+
+    #oldprice {
+        margin-left: 15px;
+        color: grey;
+    }
+
+    #title {
+        font-family: 'Fraunces', serif;
+        font-size: 30px;
+        margin-right: 0px;
+        line-height: 28px;
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        margin-bottom: 17px;
+    }
+
+    #perfume{
+        font-family: 'Poppins', sans-serif;
+        font-stretch: e;
+        color: grey;
+        font-size: 13px;  
+    }
+
+    #tresc{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;   
+        color: grey;
+        line-height: 22px;
+    }
+
+    .strech{
+        letter-spacing: 4px;
+    }
+
+
+
+    @media (max-width: 480px) {
+       .produkt {
+        flex-direction: column;
+        } 
+
+        .zdjecie {
+        height: 50%;
+        }
+
+        .photo {
+            object-fit: cover;
+            border-radius: 10px 10px 0px 0px;
+            width: 400px;
+            height: 300px;
+        }
+        
+        .srodek {
+            border-radius: 0px 0px 10px 10px;
+            width: 400px;
+        }
+
+        .button {
+            width: 360px;
+        }
+        
+        .title {
+            font-size: 38px;
+        }
+
+        #tresc {
+            font-size: 19px;
+            line-height: 25px;
+        }
+
+        #perfume{
+            font-size: 17px;
+        }
+    
