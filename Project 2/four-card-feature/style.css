@@ -71,5 +71,18 @@ h3{
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
+.box-center {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-left {
+    align-self: center;
+}
+
+.box-right {
+    align-self: center;
+}
 
 
