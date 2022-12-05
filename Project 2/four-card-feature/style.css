@@ -5,84 +5,71 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 	font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    background-color: hsl(0, 0%, 98%);
+	font-family: 'Poppins', sans-serif;
+	background-color: hsl(0, 0%, 98%);
 }
 
 .header {
-    height: 120px;
-    width: 280px;
-    /* border: 1px solid black; */
-    text-align: center;
+	height: 120px;
+	width: 200px;
+	/* border: 1px solid black; */
+	text-align: center;
+}
+
+.big-box {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 }
 
 .p-one {
-    color: hsl(229, 6%, 66%);
+	color: hsl(229, 6%, 66%);
 }
 
 .p-two {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .p-three {
-    color: hsl(229, 6%, 66%);
-    font-size: 10px;
-    padding: 0 40px;
+	color: hsl(229, 6%, 66%);
+	font-size: 10px;
+	padding-top: 10px;
 }
 
 .box {
-    height: 120px;
-    width: 250px;
-    border: 1px solid black;
+	height: 120px;
+	width: 200px;
+	padding: 10px 20px;
+	border: 1px solid black;
+}
+
+.text {
+	font-size: 8px;
+	color: hsl(229, 6%, 66%);
 }
 
 .title {
-    font-weight: bold;
+	font-weight: bold;
 }
 
-@media (min-width: 1440px)
-    {
-        .supervisor {
-            position: absolute;
-            bottom: 360px;
-            left: 140px;
-        }
-        .calculator {
-            position: absolute;
-            bottom: 360px;
-            right: 140px;
-        }
-
-        .box {
-            transform: scale(1.5);
-        }
-
-        .header {
-            position: relative;
-            top: -145px;
-            transform: scale(1.5);
-        }
-
-        .p-three {
-            padding: 0;
-        }
-
-        .team {
-            position: relative;
-            top: -40px;
-        }
-
-        .karma {
-            position: relative;
-            top: 40px;
-        }
-
-
-    }
+@media (min-width: 800px) {
+	.supervisor {
+		position: absolute;
+		top: 25%;
+		left: -105%;
+	}
+	.calculator {
+		position: absolute;
+		top: 25%;
+		right: -105%;
+	}
+}
