@@ -21,10 +21,9 @@ body{
     top: 50%;
 }
 
-.t1{
+.t1 {
     padding: 10px;
 }
-
 
 
 
@@ -45,15 +44,12 @@ body{
 }
 
 
-.t2{
+.t2 {
     padding: 10px;
 }
 
 
-
-
-
-.box3{
+.box3 {
     width: 319px;
     height: 234px;
     background-color: white;
@@ -67,19 +63,13 @@ body{
     left: 370px;
     top: 503px;
 }
-}
     
- .t3{
-        padding: 10px;
+ .t3 {   
+    padding: 10px;
  }
 
 
-
-
-
-
 .box4 {
-
     width: 319px;
     height: 234px;
     background-color: white;
@@ -93,13 +83,31 @@ body{
     left: 730px;
     top: 370px;
 }
-}
+
  .t4{
             padding: 10px;
     }
 
+.tekst{
+    width: 1050px;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
+#slim{
+    font-family: 'Poppins', sans-serif;
+}
+
+#thick{
+    font-family: 'Fraunces', serif;
+}
+
+#small{
+
+}
     
 
 .icon1{
