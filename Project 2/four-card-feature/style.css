@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+    max-width: 530px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+h2{
+    font-size: 34px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+h3{
+    font-size: 22px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.box {
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0px 5px 10px -5px hsl(229, 6%, 66%);
+}
+
+.box-left {
+    align-self: center;
+    position: relative;
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.box-center-top {
+    position: relative;
+    border-top: 5px solid hsl(0, 78%, 62%) ;
+}
+
+.box-center-bottom {
+    position: relative;
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box-right {
+    align-self: center;
+    position: relative;
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.box-center {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.img {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 28px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+    
+    h2{
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 1.5vh;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        margin-top: 60px;
+    }
+
+    p {
+        font-size: 14px;  
+    }
+
+    header p {
+        margin: 12px;
+    }
+
+    .box {
+        height: 170px;
+    }
+
+    img {
+        scale: 0.9;
+    }
+}
+    
+
+
+
+
