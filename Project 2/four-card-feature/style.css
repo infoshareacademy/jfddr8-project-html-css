@@ -86,7 +86,7 @@ body{
     }
 
 .tekst{
-    width: 100%;
+   
     height: 30%;
     display:flex;
     flex-direction: column;
@@ -97,18 +97,27 @@ body{
 
 #slim{
    font-size: 30px;
+   font-weight: 300;
    margin: 10px;
+   color: #4e4d4d;
 }
 
 #thick{
     font-size: 30px;
     margin: 10px;
+    font-weight: 900;
+    color: #4e4d4d;
 }
 
 #small{
     font-size: 15px;
     margin: 10px;
+    font-size: 15px;
+    margin: 10px;
+    color: darkgray;
+    
 }
+
     
 
 .icon1{
