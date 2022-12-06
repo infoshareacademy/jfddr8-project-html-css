@@ -57,7 +57,7 @@ h3{
     background-color: white;
     border-radius: 5px;
     padding: 25px;
-    box-shadow: 0px 5px 10px hsl(229, 6%, 66%);
+    box-shadow: 0px 5px 10px -5px hsl(229, 6%, 66%);
 }
 
 .box-left {
@@ -96,7 +96,7 @@ h3{
 
 @media screen and (max-width: 768px) {
     .container {
-        padding: 15px;
+        padding: 28px;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -109,6 +109,10 @@ h3{
         font-size: 26px;
     }
 
+    h3 {
+        font-size: 1.5vh;
+    }
+
     section {
         grid-template-columns: 1fr;
     }
@@ -118,11 +122,19 @@ h3{
     }
 
     p {
-        padding-top: 10px;
+        font-size: 14px;  
     }
 
     header p {
         margin: 12px;
+    }
+
+    .box {
+        height: 170px;
+    }
+
+    img {
+        scale: 0.9;
     }
 }
     
