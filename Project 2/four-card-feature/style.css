@@ -118,7 +118,11 @@ h3{
     }
 
     p {
-        padding-top: 20px;
+        padding-top: 10px;
+    }
+
+    header p {
+        margin: 12px;
     }
 }
     
