@@ -22,13 +22,13 @@ body {
     text-align: center;
 
 }
-.header{
+.header {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.Boxcontainer{
+.Boxcontainer {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -37,12 +37,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     overflow-wrap: break-word;
+    flex-direction: row;
     
 
-}
-.row {
-    display: flex;
-    flex-direction: row;
 }
 
 h1 b {
@@ -59,8 +56,8 @@ p {
 }
 
 .box {
-    width: 400px;
-    height: 230px;
+    max-width: 400px;
+    min-height: 230px;
     background-color: hsl(0, 0%, 98%);
     border-radius: 2%;
     padding: 25px;
@@ -68,9 +65,15 @@ p {
     box-shadow: 0px 0px 10px hsl(212, 86%, 64%);
     overflow-wrap: break-word;
     align-self: center;
-    flex-direction: column;    
-  
+    flex-shrink: 0;
+    flex-grow: 0;
 }  
+
+.insideBox {
+    display: flex;
+    flex-direction: column;
+
+}
 .picture {
     position: absolute;
     bottom: 20px;
@@ -80,22 +83,29 @@ p {
 .borderGreen {
     border-top: 5px solid green;
     margin: 20px;
+    width: 100%;
+    max-height: 100%;
 }
 
 .borderRed {
     border-top: 5px solid red;
     margin: 20px 20px 40px 20px;
+    width: 100%;
+    max-height: 100%;
 }
 
 .borderOrange {
     border-top: 5px solid orange;
     margin: 20px 20px 40px 20px;
+    width: 100%;
+    max-height: 100%;
 }
 
 .borderBlue {
     border-top: 5px solid blue;
     margin: 20px;
-    
+    width: 100%;
+    max-height: 100%;
 
 }
 .BigColumn {
@@ -105,35 +115,19 @@ p {
 @media screen and (max-width: 375px) {
     .box {
         width: 100%;
-        font-size: 24px;
+        font-size: 12px;
         line-height: 1.5;
     }
     .Boxcontainer{
         display: flex;
         align-items: center;
         padding: 20px;
-        margin-left: 40px;
-        margin-right: 40px;
         justify-content: center;
         flex-wrap: wrap;
+        overflow:scroll
     }
-    .borderGreen {
-        border-top: 5px solid green;
-        margin: 5px;
+    .insideBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
-    
-    .borderRed {
-        border-top: 5px solid red;
-        margin: 10px 10px 20px 10px;
-    }
-    
-    .borderOrange {
-        border-top: 5px solid orange;
-        margin: 10px 10px 20px 10px;
-    }
-    
-    .borderBlue {
-        border-top: 5px solid blue;
-        margin: 5px;
-}
-}
