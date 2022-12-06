@@ -5,29 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
   <title>Four card feature section</title>
 
 </head>
 <body>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <div class="container">
+    <header>
+      <h1 class="heading1">Reliable, efficient delivery<div>
+      <h1 class= "heading2">Powered by Technology</h1>
+      <p class="description">Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful</p>
+    </header>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <main>
+      <div class="card card1">
+        <h2 class="cardHeading">Supervisor</h2>
+        <p class="cardDescription">Monitors activity to identify project roadblocks</p>
+        <img src="images/icon-supervisor.svg" atl="supervisor icon"/>  
+      </div>
+      <section class="verticalCards">
+        <div class="card card2">
+          <h2 class="cardHeading">Team Builder</h2>
+          <p class="cardDescription">Scans our talent network to create the optimal team for your project</p>
+          <img src="images/icon-team-builder.svg" atl="team builder icon"/> 
+        </div>
+        <div class="card card3">
+          <h2 class="cardHeading">Karma</h2>
+          <p class="cardDescription">Regularly evaluates our talent to ensure quality</p>
+          <img src="images/icon-karma.svg" atl="karma icon"/> 
+        </div>
+      </section>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+      <div class="card card4">
+        <h2 class="cardHeading">Calculator</h2>
+        <p class="cardDescription">Uses data from past projects to provide better delivery estimates</p>
+        <img src="images/icon-calculator.svg" atl="calculator icon"/> 
+      </div>
+    </main>
+  </div>
 
 </body>
 </html>
