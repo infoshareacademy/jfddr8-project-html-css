@@ -1,0 +1,52 @@
+body
+{
+    background-color: lightblue;
+    width: 375px;
+    height: 736px;
+    margin: 0 auto;
+    position: relative;
+}
+.qrcode
+{
+    
+    margin:auto;
+    top:0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    width: 375px;
+    height: 500px;
+    background-color:white;
+    border-radius: 10px ;
+    position: absolute;
+    
+    
+}
+*{box-sizing: border-box;}
+
+
+.paragraph
+{
+    font-weight: 700;
+    font-size:15px;
+    font-family: Outfit;
+    text-align: center;
+    margin-top: 10px;
+}
+.paragraph1
+{
+    font-weight: 500;
+    font-size:15px;
+    font-family:Outfit;
+    text-align: center;
+}
+#image
+{
+    margin-top:10px;
+    margin-bottom:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 355px;
+    height: 300px;
+    font-family:Outfit;
+}
