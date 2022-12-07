@@ -157,6 +157,12 @@ h5 {
 }
 
 @media (max-width: 1250px) {
-.container {display: inline-block;}
-.main {margin-bottom: 0; height: 600px;}
+  .container {
+    display: inline-block;
+  }
+  .main {
+    margin-bottom: 0;
+    height: 600px;
+  }
+  .tekst {display: inline-block;}
 }
