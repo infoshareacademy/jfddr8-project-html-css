@@ -1,0 +1,20 @@
+.page {
+  background-color: aquamarine;
+  width: 350px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.dark {
+  color: white;
+  background-color: rgb(2, 2, 79);
+}
+
+.numbers {
+  border: solid;
+}
+
+.photo {
+  width: 300px;
+  padding: 25px;
+}
