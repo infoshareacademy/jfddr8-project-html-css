@@ -1,0 +1,43 @@
+
+@media (max-width: 375px){
+
+}
+
+
+
+.READMORE:hover {
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.page-icon {
+
+}
+
+.pictureTOP{
+
+}
+
+.picturebox{
+
+}
+
+.NEW{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
