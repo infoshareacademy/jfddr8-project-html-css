@@ -13,7 +13,8 @@ body {
 
 .container {
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .container > img,
