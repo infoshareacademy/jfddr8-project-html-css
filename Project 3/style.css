@@ -13,6 +13,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 15px;
 }
 ul {
   display: flex;
@@ -23,6 +24,8 @@ ul {
 }
 li {
   margin: 2%;
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
 }
 li:active {
   color: hsl(5, 85%, 63%);
@@ -40,7 +43,7 @@ i {
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2fr 1fr 1fr);
+  grid-template-rows: 2fr 1fr auto;
   column-gap: 30px;
   row-gap: 40px;
   justify-items: center;
@@ -71,17 +74,13 @@ main {
 .button {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 50%;
     background-color: hsl(5, 85%, 63%);
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
     align-self: flex-end;
-}
-h1 {
-  font-size: 60px;
-  margin: 0;
 }
 .bar {
   height: 1px;
@@ -92,10 +91,23 @@ h1 {
   font-size: 20px;
   margin-top: 35px;
 }
+.sidebar p {
+    color: hsl(236, 13%, 42%);
+}
+h1 {
+    font-size: 58px;
+    margin: 0;
+    font-weight: 900;
+    line-height: 1em;
+}
 h2 {
   font-size: 35px;
   color: hsl(35, 77%, 62%);
   margin: 0;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
 }
 .content-box-1 h3 {
   font-weight: 700;
@@ -121,13 +133,14 @@ h2 {
   color: hsl(233, 8%, 79%);
   margin-top:0 ;
   margin-bottom: 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 .picture {
   width: 100%;
 }
 .bottom-picture {
-  width: 200px;
+  width: 50%;
 }
 .picture-1{
     height: 100%;
@@ -145,17 +158,19 @@ h2 {
     width: auto;
 }
 .secondary-content > p{
-    font-size: 1.5rem;;
-}
-h3 {
-    font-size: 1.5rem;
-    margin-top: 0;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    color:hsl(236, 13%, 42%);
 }
 p{
    margin-bottom: 0;
+   line-height: 1.5rem;
 }
 .footer-box {
     padding-left: 20px;
+}
+.footer-box p {
+    color: hsl(236, 13%, 42%);
 }
 .p-secondary-content{
     margin-top: 0;
@@ -183,5 +198,8 @@ p{
     .button{
         margin-top: 20px;
         width: 50%;
+    }
+    h1{
+        font-size: 4.5rem;
     }
   }
