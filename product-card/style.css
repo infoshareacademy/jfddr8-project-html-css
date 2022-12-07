@@ -1,0 +1,111 @@
+body
+{
+    background-color:#FAF2E4;
+    height: 650px;
+    margin:0 auto;
+}
+.product
+{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    
+}
+
+.zdiecie
+{
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.part2
+{
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+.prize1
+{
+    float: left;
+}
+.prize2
+{
+    float:left;
+}
+.perfum
+{
+    letter-spacing: 3px;
+    width: 300px;
+    font-size: 14px;
+    height: 15px;
+    color:darkgray;
+    font-weight:500;
+    margin-left: 30px;
+    
+}
+.akapit2
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    width: 300px;
+    margin-left: 30px;
+    
+}
+.akapit3
+{
+    font-size: 14px;
+    color: darkgrey;
+    width: 300px;
+    margin-left: 30px;
+    
+}
+.prize1
+{
+    font-size: 30px;
+    font-weight: 700;
+    color:#006644;
+    height: 40px;
+    width: 150px;
+    margin-left: 30px;
+    
+}
+.prize2
+{
+    font-size: 14px;
+    height: 40px;
+    width: 50px;
+    color: darkgray;
+    
+    
+    
+    
+}
+.submit
+{
+    width:250px;
+    height: 40px;
+    background-color:#006644;
+    color:white;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-left: 25px;
+    
+
+}
+
