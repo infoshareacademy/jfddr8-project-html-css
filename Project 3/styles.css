@@ -2,10 +2,6 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-div {
-  border: 2px solid black;
-}
-
 .container {
   height: 900px;
   width: 54vw;
@@ -132,9 +128,30 @@ h3 {
 }
 
 .bottxt {
-    margin-top: 5%;
-    width: 30%;
-    padding-top: 0;
+  margin-top: 5%;
+  width: 30%;
+  padding-top: 0;
 }
 
-h4 {margin-top: 0;}
+h4 {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-left: 5%;
+  margin-bottom: 0;
+  color: hsl(233, 8%, 79%);
+}
+
+h5 {
+  margin-top: 7%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.botp {
+  font-size: 15px;
+  margin-top: 7%;
+  margin-left: 5%;
+  color: hsl(236, 13%, 42%);
+}
