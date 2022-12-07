@@ -1,0 +1,32 @@
+<script src="https://kit.fontawesome.com/c1e3cd0742.js" crossorigin="anonymous"></script>
+
+body {
+  margin: 0;
+}
+.page {
+  width: 375px;
+  height: 100pv;
+  background-color: bisque;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 100%;
+  padding: 15px;
+}
+
+.photoandtext {
+  border: solid;
+  padding: 15px;
+}
+
+.dark {
+  border: solid;
+  padding: 15px;
+}
+
+.lastsection {
+  border: solid;
+  padding: 15px;
+}
