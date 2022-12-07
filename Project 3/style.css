@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color:hsl(36, 100%, 99%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    
+
+}
+
+.box {
+    border: 3px solid white;
+}
+
+nav.box {
+    position: relative;
+    /* display: grid; */
+}
+
+.menu {
+    position: absolute;
+    top: calc(50%-50px);
+    right: 0%;
+    margin-right: 20px;
+    transform: scale(2.5);
+    
+}
+
+nav > img {
+       
+}
+
+.img-hero {
+    height: 300px;
+    background-image: url("./assets/images/image-web-3-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.bright {
+
+    height: 300px;
+    
+
+}
+.one {
+font-size: 36px;
+}
+
+.two {
+
+}
+
+button {
+background-color: hsl(5, 85%, 63%);
+height: 40px;
+width: 170px;
+color: white;
+margin-top: 20px;
+border: none;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-weight: bold;
+
+}
+
+.new {
+    background-color: hsl(240, 100%, 5%);
+}
+
+
