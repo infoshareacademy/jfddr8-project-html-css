@@ -1,0 +1,44 @@
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 12px;
+}
+li{
+    margin: 2%
+}
+li:active{
+    color: hsl(5, 85%, 63%);
+}
+li:hover{
+    cursor: pointer;
+}
+div.hamburger{
+    display: none;
+    height: 65px;
+}
+i {
+    font-size: 45px;
+}
+@media screen and (max-width: 768px){
+    ul.nav-desktop {
+        display: none
+    }
+    div.hamburger {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
