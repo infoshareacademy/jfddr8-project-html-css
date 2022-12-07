@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image-desktop {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-mobile {
+  /* max-width: 100vh; */
+}
+
+.new {
+  background-color: rgb(2, 2, 37);
+  /* background-color: white; */
+  color: white;
+}
+
+h2 {
+  color: orange;
+}
+
+aside {
+  display: flex;
+}
+.bottom-articles {
+  display: flex;
+  flex-direction: row;
+}
