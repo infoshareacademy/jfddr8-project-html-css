@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="style.css">
 
   <script src="https://kit.fontawesome.com/c1e3cd0742.js" crossorigin="anonymous"></script>
@@ -15,73 +23,84 @@
 </head>
 
 <body>
-  <main>
+  <div class="container">
     <header>
       <div class="page-icon">W.</div>
       <nav>
         <i class="fa-sharp fa-solid fa-bars mobile-hamburger"></i>
-        <!-- <ul>
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>rending</li>
-        <li>Categories</li>
-      </ul> -->
+        <ul class="desktop-nav">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>rending</li>
+          <li>Categories</li>
+        </ul>
       </nav>
     </header>
     <main>
       <img class="image-mobile" src="assets/images/image-web-3-mobile.jpg">
       <img class="image-desktop" src="assets/images/image-web-3-desktop">
-      <h1>The Bright Future of Web 3.0?</h1>
+      <h1 class="myheading">The Bright Future of Web 3.0?</h1>
 
-      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of
+      <p class="description">We dive into the next evolution of the web that claims to put the power of the platforms
+        back into the hands of
         the people.
         But is it really fulfilling its promise?
       <p>
 
-        <input type="button" value="Read more">
+        <input class="button" type="button" value="Read more">
+
       <section class="new">
         <h2>New</h2>
+        <section class="new-articles">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p class="new-paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr>
+        </section>
 
-        <h3>Hydrogen VS Electric Cars</h3>
-        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-        <hr>
+        <section class="new-articles">
+          <h3>The Downsides of AI Artistry</h3>
+          <p class="new-paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr>
+        </section>
 
-        <h3>The Downsides of AI Artistry</h3>
-        <p>What are the possible adverse effects of on-demand AI image generation?</p>
-        <hr>
-
-        <h3>Is VC Funding Drying Up?</h3>
-        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        <section class="new-articles">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p class="new-paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
       </section>
     </main>
 
-    <aside>
+    <aside class="bottom-articles-group">
       <section class="bottom-articles">
         <img src="assets/images/image-retro-pcs.jpg">
-        <div>
-          <p>01</p>
-          Reviving Retro PCs
-          What happens when old PCs are given modern upgrades?
+        <div class="text-container">
+          <p class="numb">01</p>
+          <h3 class="bottom-heading">Reviving Retro PCs</h3>
+          <p class="bottom-text">What happens when old PCs are given modern upgrades?</p>
         </div>
       </section>
+
       <section class="bottom-articles">
-        <img class="" src="assets/images/image-top-laptops.jpg">
-        <div>
-          <p>02</p>
-          Top 10 Laptops of 2022
-          Our best picks for various needs and budgets.
+        <img src="assets/images/image-top-laptops.jpg">
+        <div class="text-container">
+          <p class="numb">02</p>
+          <h3 class="bottom-heading">Top 10 Laptops of 2022</h3>
+          <p class="bottom-text">Our best picks for various needs and budgets.</p>
         </div>
       </section>
+
       <section class="bottom-articles">
         <img src="assets/images/image-gaming-growth.jpg">
-        <div>
-          <p>03</p>
-          The Growth of Gaming
-          How the pandemic has sparked fresh opportunities.
+        <div class="text-container">
+          <p class="numb">03</p>
+          <h3 class="bottom-heading">The Growth of Gaming</h3>
+          <p class="bottom-text">How the pandemic has sparked fresh opportunities.</p>
         </div>
       </section>
+
     </aside>
+  </div>
 </body>
 
 </html>

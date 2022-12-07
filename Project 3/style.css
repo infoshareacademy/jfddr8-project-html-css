@@ -3,14 +3,33 @@
   padding: 0;
 }
 
+.container {
+  padding: 20px 20px 40px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 20px;
+  align-items: center;
 }
 
-.image-desktop {
+i {
+  transform: scaleX(3) scaleY(1.5);
+  padding-right: 10px;
+}
+
+.desktop-nav {
   display: none;
+}
+
+.page-icon {
+  font-size: 35px;
+  font-weight: 1000;
+  font-family: "DM Serif Display", serif;
 }
 
 main {
@@ -18,24 +37,112 @@ main {
   flex-direction: column;
 }
 
-.image-mobile {
-  /* max-width: 100vh; */
+.image-desktop {
+  display: none;
+}
+
+.myheading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: 0.8;
+  line-height: 1;
+}
+
+.description {
+  line-height: 1.7;
+  font-size: 15px;
+  padding-bottom: 20px;
+  color: hsl(236, 13%, 42%);
+}
+
+.button {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+  border-color: transparent;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: hsl(240, 100%, 5%);
 }
 
 .new {
-  background-color: rgb(2, 2, 37);
-  /* background-color: white; */
+  background-color: hsl(240, 100%, 5%);
   color: white;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding: 20px 20px 0 20px;
 }
 
 h2 {
-  color: orange;
+  color: hsl(35, 77%, 62%);
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
-aside {
-  display: flex;
+/* .new p {
+  color: hsl(233, 8%, 79%);
+  padding: 10px 0 30px 0;
+} */
+.new-paragraph {
+  color: hsl(233, 8%, 79%);
+  padding: 10px 0 30px 0;
 }
+
+.new h3:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+hr {
+  border-color: hsl(233, 8%, 79%);
+}
+
+.new-articles {
+  padding: 20px 0 20px 0;
+}
+
 .bottom-articles {
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.bottom-articles img {
+  width: 28vw;
+  height: 2auto;
+  margin-right: 20px;
+}
+
+.numb {
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(233, 8%, 79%);
+}
+
+.bottom-heading {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.bottom-heading:hover {
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+
+.bottom-text {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.5;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
