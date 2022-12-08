@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container > img,
+.container > div {
+    width: 300px;
+}
+
+.container > div {
+    border-radius: 0 3% 3% 0;
+    padding: 30px 35px 35px 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+    align-items: center;
+}
+
+img {
+    border-radius: 3% 0 0 3%;
+}
+
+.container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color:  hsl(160, 81%, 14%);
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    padding: 15px 0;
+    font-family: 'Montserrat';
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    
+}
+
+h1 {
+    font-family: 'Fraunces';
+    line-height: 100%;
+    font-size: 35px;
+}
+
+.third-paragraph {
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    
+}
+
+button img {
+    height: 14px;
+    margin-right: 5%;
+}
+
+s {
+    font-size: 13px;
+    margin-left: 30px;
+    color: hsl(213, 27%, 62%);
+    font-family: 'Montserrat';
+}
+
+.second-paragraph {
+    line-height: 150%;
+    color: hsl(213, 27%, 62%);
+    display: flex;
+    font-size: 15px;
+}
+
+.pr {
+color: hsl(213, 27%, 62%);
+letter-spacing: 4px;
+font-size: 13px;
+margin: 0;
+}
+
+.mobile-card {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 375px;
+        display: block;
+    }
+    .container > div {
+        border-radius: 0 0 3% 3%;
+        width: auto;
+        padding: 30px;
+    }
+    .card {
+        display: none;
+    }
+    .container > img.mobile-card {
+        display: block;
+        width: 100%;
+    }
+    img {
+        border-radius: 3% 3% 0 0;
+    }
+    .second-paragraph {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 27px;
+    }
+    
+    button {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
