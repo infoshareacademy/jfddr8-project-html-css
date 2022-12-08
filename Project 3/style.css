@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box {
+    border: 3px solid white;
+}
+
+nav.box {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: calc(50%-50px);
+    right: 0%;
+    margin-right: 20px;
+    transform: scale(2.5);
+}
