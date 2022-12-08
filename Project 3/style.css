@@ -116,7 +116,7 @@ hr {
 
 .bottom-articles img {
   width: 28vw;
-  height: 2auto;
+  height: auto;
   margin-right: 20px;
 }
 
@@ -145,4 +145,72 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 767px) {
+  .container {
+    margin: 5vw 10vw 5vw 10vw;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  li {
+    padding: 0 20px 0 20px;
+    color: hsl(236, 13%, 42%);
+  }
+  .image-mobile {
+    display: none;
+  }
+
+  .image-desktop {
+    display: block;
+    grid-area: img;
+    max-width: 100%;
+    height: auto;
+  }
+
+  main {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-areas:
+      "img img new"
+      "h1 description new"
+      "h1 button new";
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+
+  .new {
+    grid-area: new;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  h1 {
+    grid-area: h1;
+  }
+  .description {
+    grid-area: description;
+  }
+  .button {
+    grid-area: button;
+  }
+  .bottom-articles-group {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom-articles img {
+    width: 7vw;
+    height: auto;
+    margin-right: 20px;
+  }
 }
