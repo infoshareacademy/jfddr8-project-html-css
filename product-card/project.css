@@ -43,12 +43,6 @@ img {
     height: 100vh;
 }
 
-@media (max-width: 500px) {
-    .container {
-        width: 375px;
-    }
-}
-
 button {
     background-color:  hsl(160, 81%, 14%);
     border-radius: 10px;
@@ -104,4 +98,41 @@ color: hsl(213, 27%, 62%);
 letter-spacing: 4px;
 font-size: 13px;
 margin: 0;
+}
+
+.mobile-card {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 375px;
+        display: block;
+    }
+    .container > div {
+        border-radius: 0 0 3% 3%;
+        width: auto;
+        padding: 30px;
+    }
+    .card {
+        display: none;
+    }
+    .container > img.mobile-card {
+        display: block;
+        width: 100%;
+    }
+    img {
+        border-radius: 3% 3% 0 0;
+    }
+    .second-paragraph {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 27px;
+    }
+    
+    button {
+        margin-top: 20px;
+        width: 100%;
+    }
 }
