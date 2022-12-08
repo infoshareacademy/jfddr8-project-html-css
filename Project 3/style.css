@@ -227,6 +227,7 @@ p{
     }
     body {
         margin: 0;
+        padding: 20px;
     }
     .footer-box {
         min-width: 0;
