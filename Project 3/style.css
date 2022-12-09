@@ -15,7 +15,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 100px 300px 150px 200px 1fr 160px 160px 250px;
+	grid-template-rows: 90px 300px 150px 200px 1fr 160px 160px 250px;
 	min-width: 250px;
 	max-width: 420px;
 	padding: 15px;
@@ -23,14 +23,32 @@ body {
 
 nav {
 	position: relative;
+	display: flex;
+	justify-content: end;
+	padding-right: 5px;
+	
+}
+
+nav > a {
+	margin-left: 40px;
+	color: hsl(231, 6%, 55%);
+	text-decoration: none;
+	line-height: 90px;
+
 }
 
 .menu {
 	position: absolute;
-	top: calc(50%-50px);
-	right: 0%;
+	margin-top: 30px;
+	right: 0;
 	margin-right: 20px;
 	transform: scale(2.5);
+}
+
+.w {
+	position: absolute;
+	left: 0%;
+	margin-top: 20px;
 }
 
 .img-hero {
@@ -40,9 +58,6 @@ nav {
 	background-size: cover;
 }
 
-.bright {
-	/* height: 150px; */
-}
 .one {
 	margin-top: 20px;
 	font-size: 42px;
@@ -141,8 +156,11 @@ button {
 
 
 
-
-
+@media (max-width:1049px) {
+	nav > a {
+		display: none;
+	}
+}
 
 @media (min-width: 1050px) {
 	.container {
@@ -159,6 +177,10 @@ button {
 
 	nav {
 		grid-area: nav;
+	}
+
+	.mobile-hamburger {
+		display: none;
 	}
 
 	.img-hero {
