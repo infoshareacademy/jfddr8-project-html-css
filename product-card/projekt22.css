@@ -1,0 +1,271 @@
+body
+{
+width: 1440px;
+margin-left: auto;
+margin-right: auto;
+font-family: Poppins;
+}
+
+
+.akapit1
+{
+    text-align: center;
+    margin-top: 1px;
+    font-weight: 400;
+    font-size: 15px;
+    color: lightgrey;
+}
+h1
+{
+    font-size: 15px;
+    color:black;
+    
+
+    
+    
+    
+}
+h2
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    
+    
+}
+h3
+{
+font-size: 15px;
+font-weight: 200;
+margin-top: 1px;
+margin-bottom: 1px;
+
+}
+.akapit2
+{
+    text-align:center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 15px;
+}
+
+.akapit3
+{
+    text-align:center;
+    font-weight: 100;
+    margin-bottom: 43px;
+    margin-top: 1px;
+    font-size: 15px;
+    color:lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+.supervisor
+{
+    border: 1px solid gray;
+    width: 400px;
+    height: 305px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    
+    
+    
+}
+.team
+{
+    border: 1px solid gray;
+    width: 400px;
+    height: 305px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    
+}
+.Karma
+{
+    border: 1px solid gray;
+    width: 400px;
+    height: 305px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    
+}
+.Calculator
+{
+    
+    border: 1px solid gray;
+    width: 400px;
+    height: 305px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    box-shadow: 8px 8px 24px 0px rgba(162, 162, 175, 1);
+    
+}
+
+section
+{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 570px;
+    margin-bottom: 0;
+}
+.color1
+{
+width: 400px;
+height: 10px;
+background-color: #33FFFF;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.color2
+{
+    width: 400px;
+    height: 10px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.color3
+{
+    width: 400px;
+    height: 10px;
+    background-color: #E69900;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.color4
+{
+    width: 400px;
+    height: 10px;
+    background-color: blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.icon1
+{
+    width: 60px;
+    height: 60px;   
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    
+}
+
+.icon2
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-bottom: 0;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    
+
+}
+.icon3
+{
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-bottom: 0;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.icon4
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-bottom: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    
+}
+.tekst1
+{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    color:lightgray;
+    width: 340px;
+    height:320px;
+    
+}
+.tekst2
+{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    color:lightgray;
+    width: 370px;
+    height: 280px;
+
+    
+}
+.tekst3
+{
+    margin-left: 20px;
+    font-size: 15px;
+    color:lightgray;
+    width: 370px;
+    height: 280px;
+
+}
+.tekst4
+{
+    margin-left: 20px;
+    font-size: 15px;
+    color:lightgray;
+    width: 370px;
+    height: 280px;
+}
+.srodek
+{
+    
+    display: flex;
+    height: 650px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.position1
+{
+    position:relative;
+    height: 155px;
+    
+}
+.position2
+{
+    position: relative;
+    height: 190px;
+}
+.position3
+{
+    position: relative;
+    height: 190px;
+}
+.position4
+{
+    position:relative;
+    height: 240px;
+}
