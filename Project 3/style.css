@@ -149,6 +149,9 @@ h3 {
 .picture-1{
     height: 100%;
 }
+.picture-11 {
+    display: none;
+}
 .picture-2{
     height: 50%;
     width: auto;
@@ -209,6 +212,13 @@ p{
     }
     .main-picture{
       height: 80vw
+    }
+    .picture-1{
+    display: none;
+    }
+    .picture-11{
+        display: flex;
+        height: 100%;
     }
     .picture-2{
         width: 30%;
