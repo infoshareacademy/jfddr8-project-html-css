@@ -16,7 +16,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 90px 300px 150px 200px 1fr 160px 160px 250px;
-	min-width: 250px;
+	min-width: 280px;
 	max-width: 420px;
 	padding: 15px;
 }
@@ -26,7 +26,6 @@ nav {
 	display: flex;
 	justify-content: end;
 	padding-right: 5px;
-	
 }
 
 nav > a {
@@ -34,18 +33,23 @@ nav > a {
 	color: hsl(231, 6%, 55%);
 	text-decoration: none;
 	line-height: 90px;
-
+	cursor: pointer;
+	transition: color 0.4s;
 }
 
-.menu {
+nav > a:hover {
+	color: hsl(35, 77%, 62%);
+}
+
+.menu-bars {
 	position: absolute;
-	margin-top: 30px;
 	right: 0;
+	margin-top: 30px;
 	margin-right: 20px;
 	transform: scale(2.5);
 }
 
-.w {
+.w-letter {
 	position: absolute;
 	left: 0%;
 	margin-top: 20px;
@@ -82,6 +86,12 @@ button {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	cursor: pointer;
+	transition: background-color 0.4s;
+}
+
+button:hover {
+	background-color: black;
 }
 
 .new {
@@ -101,16 +111,21 @@ button {
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
+	cursor: pointer;
+	transition: color 0.4s;
+}
+
+.new-first:hover {
+	color: hsl(35, 77%, 62%);
 }
 
 .new-second {
 	margin-top: 10px;
 	padding-bottom: 30px;
 	color: hsl(233, 8%, 79%);
+	border-bottom: 1px solid hsl(240, 2%, 47%);
 	font-size: 15px;
 	line-height: 25px;
-	border-bottom: 1px solid hsl(240, 2%, 47%);
-
 }
 
 .new-last {
@@ -124,10 +139,7 @@ button {
 .box {
 	display: flex;
 	margin-top: 65px;
-	margin-right: ;
-	/* height: 130px; */
 }
-
 
 .img > img {
 	margin-right: 20px;
@@ -142,9 +154,15 @@ button {
 
 .img-title {
 	margin-top: 10px;
-	color: hsl(240, 94%, 7%);;
+	color: hsl(240, 94%, 7%);
 	font-size: 18px;
 	font-weight: 800;
+	cursor: pointer;
+	transition: color 0.4s;
+}
+
+.img-title:hover {
+	color: hsl(35, 77%, 62%);
 }
 
 .img-text {
@@ -154,9 +172,7 @@ button {
 	line-height: 25px;
 }
 
-
-
-@media (max-width:1049px) {
+@media (max-width: 1049px) {
 	nav > a {
 		display: none;
 	}
@@ -165,14 +181,14 @@ button {
 @media (min-width: 1050px) {
 	.container {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 100px 300px 180px 160px;
+		grid-template-rows: 90px 300px 180px 200px;
 		grid-template-areas:
 			'nav nav nav'
 			'img img new'
 			'b b2 new'
 			'box1 box2 box3';
 		max-width: 1200px;
-		
+		margin: auto;
 	}
 
 	nav {
@@ -220,5 +236,11 @@ button {
 
 	.image-game {
 		grid-area: box3;
+	}
+}
+
+@media (max-width: 360px) {
+	.container {
+		grid-template-rows: 90px 300px 150px 200px 1fr 220px 220px 280px;
 	}
 }
