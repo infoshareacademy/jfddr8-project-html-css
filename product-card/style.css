@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(30, 38%, 92%);
+	font-family: 'Montserrat', sans-serif;
+}
+.box {
+	margin: 20px;
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.image {
+	height: 240px;
+	background-image: url("./images/image-product-desktop.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.text {
+	padding: 20px 20px;
+}
+.perfume {
+	margin-bottom: 10px;
+	color: hsl(228, 12%, 48%);
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.gabrielle {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.floral {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 23px;
+	color: hsl(228, 12%, 48%);
+}
+.price {
+	display: inline-block;
+	color: rgb(68, 134, 120);
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.higher-price {
+	display: inline-block;
+	margin-left: 10px;
+	color: hsl(228, 12%, 48%);
+	font-size: 14px;
+	text-decoration: line-through;
+	vertical-align: super;
+}
+.button {
+	margin: 15px 0px;
+	height: 44px;
+	color: white;
+	background-color: rgb(68, 134, 120);
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 44px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.fa-solid {
+	padding-right: 5px;
+	color: white;
+}
+
+.button:hover {
+	background-color: rgb(34, 70, 53);
+}
