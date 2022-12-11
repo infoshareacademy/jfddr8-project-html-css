@@ -1,51 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/c1e3cd0742.js" crossorigin="anonymous"></script>
+
   <title>News homepage</title>
 
 </head>
+
 <body>
+  <div class="container">
+    <header>
+      <div class="page-icon">W.</div>
+      <nav>
+        <div class="hamburger">
+          <i class="fa-sharp fa-solid fa-bars mobile-hamburger"></i>
+        </div>
+        <ul class="desktop-nav">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img class="image-mobile" src="assets/images/image-web-3-mobile.jpg">
+      <img class="image-desktop" src="assets/images/image-web-3-desktop.jpg">
+      <h1 class="myheading">The Bright Future of Web 3.0?</h1>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+      <p class="description">We dive into the next evolution of the web that claims to put the power of the platforms
+        back into the hands of
+        the people.
+        But is it really fulfilling its promise?
+      <p>
 
-  The Bright Future of Web 3.0?
+        <input class="button" type="button" value="Read more">
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+      <section class="new">
+        <h2>New</h2>
+        <section class="new-articles">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p class="new-paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr>
+        </section>
 
-  Read more
+        <section class="new-articles">
+          <h3>The Downsides of AI Artistry</h3>
+          <p class="new-paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr>
+        </section>
 
-  New 
+        <section class="new-articles">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p class="new-paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
+      </section>
+    </main>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+    <aside class="bottom-articles-group">
+      <section class="bottom-articles">
+        <img src="assets/images/image-retro-pcs.jpg">
+        <div class="text-container">
+          <p class="numb">01</p>
+          <h3 class="bottom-heading">Reviving Retro PCs</h3>
+          <p class="bottom-text">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </section>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+      <section class="bottom-articles">
+        <img src="assets/images/image-top-laptops.jpg">
+        <div class="text-container">
+          <p class="numb">02</p>
+          <h3 class="bottom-heading">Top 10 Laptops of 2022</h3>
+          <p class="bottom-text">Our best picks for various needs and budgets.</p>
+        </div>
+      </section>
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+      <section class="bottom-articles">
+        <img src="assets/images/image-gaming-growth.jpg">
+        <div class="text-container">
+          <p class="numb">03</p>
+          <h3 class="bottom-heading">The Growth of Gaming</h3>
+          <p class="bottom-text">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
 
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
+    </aside>
+  </div>
 </body>
+
 </html>
