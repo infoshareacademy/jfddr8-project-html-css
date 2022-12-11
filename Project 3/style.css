@@ -1,37 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
 button {
     background-color: hsl(5, 85%, 63%);
     border: 0;
-    padding: 10px 0;
+    padding: 17px 0;
     width: 50%;
     color: white;
+    margin: 20px 0 0;
+    letter-spacing: 3px;
 
 }
+ img {
+    width: 100%;
+ }
 
-div {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
 body {
     font-family: 'Inter';
-        max-width: 375px;
+    max-width: 375px;
 }
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;
-}
-img {
-    width: 100%;
+    align-items: center;
 }
 
 .dark {
-    color: white;
     background-color: hsl(240, 100%, 5%);
+    padding: 20px;
+    margin: 60px 0;
 }
 
-h2 {
+.dark>h2 {
     color: hsl(35, 77%, 62%);
+    margin-top: 0;
+    font-weight: 700;
+    ;
+}
+
+.dark>p {
+    font-weight: 400;
+    color: hsl(36, 100%, 99%);
+    border-color: hsla(36, 100%, 99%, 0.5);
+    margin: 0;
+}
+
+.dark > p:not(:last-child){
+    margin-bottom: 2em;
+}
+
+.dark>h3 {
+    color: hsl(36, 100%, 99%);
+    padding-top: 10px;
+    margin-top: 1em;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 45px;
+    margin: 10px 0;
+    line-height: 1.0;
+}
+
+main {
+    padding: 10px;
+    margin: 20px 0 40px;
+}
+
+i {
+    font-size: 30px;
+
+}
+
+.frn>div {
+    line-height: 1.7;
+}
+
+main>div>div {
+    display: flex;
+}
+
+
+main>div {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info h2 {
+    color: hsl(233, 8%, 79%);
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: inline;
+}
+
+hr {
+    background-color: hsla(233, 8%, 79%, 0.5);
+    margin: 0;
+    border: none;
+    height: 1px;
+}
+
+.info p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.info h3 {
+    margin: 0;
+}
+
+.pct {
+    height: 135px;
+    width: 100px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pct.one {
+    background-image: url('assets/images/image-retro-pcs.jpg');
+}
+
+.pct.two {
+    background-image: url('assets/images/image-top-laptops.jpg');
+}
+
+.pct.three {
+    background-image: url('assets/images/image-gaming-growth.jpg');
+}
+
+.article:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+@media screen {
+    body {
+        max-width: 1440px;
+    }
+    
+    main {
+        
+    }
+    
 }
