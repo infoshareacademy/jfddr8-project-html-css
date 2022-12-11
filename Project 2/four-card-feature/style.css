@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Poppins";
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: hsl(0,0%,98%)
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container-1 {
+    display: flex;
+    background-color: hsl(0,0%,98%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.text-1 {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+.item {
+    align-self: center;
+    padding-right: 10px;
+    color: hsl(229, 6%, 66%);
+}
+
+.item-1 {
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.item-2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 0px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.item-3 {
+    margin-top: 8px;
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+.container-2 {
+    
+    display: flex;
+    background-color: hsl(0,0%,98%);
+    margin: 15px 0px;
+    justify-content: start;
+    align-items: center; 
+    padding-left: 100px;
+}
+
+.box {
+    height: 250px;
+    width: 390px;
+    color: hsl(229, 6%, 66%);
+    padding: 0px 0px;
+    border-radius: 10px;
+    margin: 0px 10px 30px 0px;
+    padding: 0px 15px 5px 10px;
+    box-shadow: 0 2px 2px 2px hsl(229, 6%, 66%);
+}
+
+.subtitle {
+    font-size: 20px;
+    color: black;
+}
+
+.box-1 {
+    /* border:hsl(229, 6%, 66%); */
+    border-top: 5px solid;
+    border-top-color: hsl(180, 62%, 55%);
+    position: relative;
+   
+}
+
+.box-2 {
+    /* border: 1px solid hsl(229, 6%, 66%); */
+    border-top: 5px solid;
+    border-top-color: hsl(0, 78%, 62%);
+    position: relative;
+}
+
+.box-3 {
+    /* border: 1px solid hsl(229, 6%, 66%); */
+    border-top: 5px solid;
+    border-top-color: hsl(34, 97%, 64%);
+    position: relative;
+}
+
+.box-4 {
+    /* border: 1px solid hsl(229, 6%, 66%); */
+    border-top: 5px solid;
+    border-top-color: hsl(212, 86%, 64%);
+    position: relative;
+}
+
+.picture {
+    padding-left: 300px;
+    padding-top: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
