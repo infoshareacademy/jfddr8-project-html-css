@@ -49,3 +49,7 @@ img {
 p {
     font-size: 15px;
 } 
+
+main {
+    display: grid;;
+}
