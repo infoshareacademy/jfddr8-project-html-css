@@ -100,7 +100,6 @@ section {
   display: flex;
   justify-content: center;
   align-self: center;
-  height: 50vh;
   width: 60vh;
 }
 .prices {
@@ -156,4 +155,5 @@ section {
   .text {
     padding-right: 10px;
   }
+
 }
