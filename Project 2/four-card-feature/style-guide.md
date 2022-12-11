@@ -32,3 +32,7 @@ The designs were created to the following widths:
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 200, 400, 600
+- title: 28px;
+- subheader: 18px;
+- item title: 20px;
+- content: 15px;
