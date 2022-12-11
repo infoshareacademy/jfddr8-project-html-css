@@ -37,7 +37,6 @@ header {
     color: hsl(35, 77%, 62%);
     margin-top: 0;
     font-weight: 700;
-    ;
 }
 
 .dark>p {
@@ -83,9 +82,8 @@ main>div>div {
 }
 
 
-main>div {
+.articles {
     flex-direction: column;
-    gap: 20px;
 }
 
 .info h2 {
@@ -141,13 +139,71 @@ hr {
     margin-bottom: 30px;
 }
 
-@media screen {
+.menu {
+    display: none;
+}
+.desktop {
+    display: none;
+}
+@media screen and (min-width: 375px) {
+    .sections {
+        display: flex;
+    }
     body {
-        max-width: 1440px;
+        max-width: none;
     }
-    
     main {
-        
+        max-width: 1200px;
+        margin: 0 auto;
     }
-    
+    .menu {
+        display: block;
+
+    }
+
+    i.mobile-hamburger {
+        display: none;
+    }
+    .menu span:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .frn {
+        margin-right: 30px;
+    }
+    .dark {
+        margin: 0;
+        width: 30%;
+        flex-shrink: 0;
+    }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    .articles {
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        justify-content: space-between;
+    }
+
+    .article {
+        flex-basis: 33.333%;
+        flex-shrink: 0;
+    }
+    .par {
+        display: flex;
+        margin-top: 20px;
+    }
+    .par > div {
+        width: 50%;
+    }
+    button {
+        width: 40%;
+    }
+    .par h1 {
+        font-size: 50px;
+    }
 }
